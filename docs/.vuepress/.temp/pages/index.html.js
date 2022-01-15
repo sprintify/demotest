@@ -11,7 +11,7 @@ export const data = {
     "actions": [
       {
         "text": "Get Started",
-        "link": "/menu.md/",
+        "link": "/menu.md",
         "type": "primary"
       }
     ],
@@ -32,19 +32,15 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1642253685000,
+    "contributors": [
+      {
+        "name": "Vegar Dietz",
+        "email": "vegardietz@Vegars-MacBook-Pro.local",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

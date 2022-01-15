@@ -5,7 +5,7 @@ heroImage: /img/springfield-dim-sum-800px.png
 tagline: Healthy, Delicious Dim Sum 7 Days a Week!
 actions:
   - text: Get Started
-    link: /menu.md/
+    link: /menu.md
     type: primary
 
 features:
