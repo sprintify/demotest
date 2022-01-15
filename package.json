@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-demotest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-beta.33",
+    "vuepress": "^2.0.0-beta.33"
+  }
+}
